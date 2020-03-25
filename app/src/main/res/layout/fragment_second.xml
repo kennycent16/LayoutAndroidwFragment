@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_spesial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/certificate_icon"
+        android:text="  Spesial untuk Anda"
+        android:textColor="@color/Black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_lihatsemua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:text="Lihat Semua"
+        android:textColor="@color/Red" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_spesial"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="20dp"
+        android:clipToPadding="false"
+        android:elevation="8dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.kingfisher.easyviewindicator.RecyclerViewIndicator
+
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/recycleview1"
+        app:avi_animation_enable="false"
+        app:avi_drawable="@drawable/indicator_selected"
+        app:avi_drawable_unselected="@drawable/indicator_unselected"
+        app:avi_gravity="left"
+        android:layout_marginLeft="20dp"
+        app:avi_height="10dp"
+        app:avi_width="10dp"></com.kingfisher.easyviewindicator.RecyclerViewIndicator>
+</RelativeLayout>

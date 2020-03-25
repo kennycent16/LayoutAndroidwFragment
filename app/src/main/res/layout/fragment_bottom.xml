@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_pembelianterakhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/refreshnew"
+        android:text=" Pembelian Terakhir"
+        android:textColor="@color/Black"
+        android:textSize="15dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/tv_belidesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_pembelianterakhir"
+        android:layout_marginTop="10dp"
+        android:text="Beli kembali paket yang terakhir Anda beli"
+        android:textColor="@color/Black"></TextView>
+
+    <TextView
+        android:id="@+id/tv_lihatsemua2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:text="Lihat Semua"
+        android:textColor="@color/Red" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_belidesc"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_panggilan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardview_box">
+
+            <TextView
+                android:id="@+id/tv_pakettelp"
+                android:layout_width="399dp"
+                android:layout_height="75dp"
+                android:drawableLeft="@drawable/call"
+                android:drawablePadding="25dp"
+                android:gravity="center|fill"
+                android:lines="2"
+                android:padding="10dp"
+                android:text="Paket Telepon 24 Jam\n 31 Des 2019 12:00:01"
+                android:textColor="@color/Black"
+                android:textSize="14sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_new"
+                android:text="Beli"
+                android:textAllCaps="false"
+                android:textColor="@color/Black"
+                android:textStyle="bold"></Button>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

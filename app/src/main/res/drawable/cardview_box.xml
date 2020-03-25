@@ -1,0 +1,39 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<vector-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:aapt="http://schemas.android.com/aapt"-->
+<!--    android:width="166dp"-->
+<!--    android:height="50dp"-->
+<!--    android:viewportWidth="166"-->
+<!--    android:viewportHeight="50"-->
+<!--    >-->
+<!--    <group>-->
+<!--        <clip-path-->
+<!--            android:pathData="M5 1H161C163.209 1 165 2.79086 165 5V45C165 47.2091 163.209 49 161 49H5C2.79086 49 1 47.2091 1 45V5C1 2.79086 2.79086 1 5 1Z"-->
+<!--            />-->
+<!--        <path-->
+<!--            android:pathData="M1 1V49H165V1"-->
+<!--            android:fillColor="#FFFFFF"-->
+<!--            />-->
+<!--    </group>-->
+<!--    <group>-->
+<!--        <clip-path-->
+<!--            android:pathData="M0 0V50H166V0M5 1H161C163.209 1 165 2.79086 165 5V45C165 47.2091 163.209 49 161 49H5C2.79086 49 1 47.2091 1 45V5C1 2.79086 2.79086 1 5 1Z"-->
+<!--            />-->
+<!--        <path-->
+<!--            android:pathData="M5 1H161C163.209 1 165 2.79086 165 5V45C165 47.2091 163.209 49 161 49H5C2.79086 49 1 47.2091 1 45V5C1 2.79086 2.79086 1 5 1Z"-->
+<!--            android:strokeWidth="2"-->
+<!--            android:strokeColor="#E5E5E5"-->
+<!--            />-->
+<!--    </group>-->
+<!--</vector>-->
+
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="@color/White"></solid>
+    <size android:height="55dp" android:width="166dp"></size>
+    <stroke android:color="@color/LightGrey" android:width="2dp"></stroke>
+    <corners android:radius="10dp" ></corners>
+
+
+</shape>

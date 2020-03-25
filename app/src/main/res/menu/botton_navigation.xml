@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/ic_house"
+        android:title="Beranda"></item>
+
+    <item android:id="@+id/nav_hadiah"
+        android:icon="@drawable/ic_trophy"
+        android:title="Hadiah"></item>
+
+    <item android:id="@+id/nav_belanja"
+        android:icon="@drawable/ic_cart"
+        android:title="Belanja"></item>
+
+    <item android:id="@+id/nav_jelajah"
+        android:icon="@drawable/ic_rocket"
+        android:title="Jelajah"></item>
+
+    <item android:id="@+id/nav_account"
+        android:icon="@drawable/ic_person"
+        android:title="Akun"></item>
+
+</menu>
